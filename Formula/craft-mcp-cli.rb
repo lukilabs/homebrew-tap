@@ -1,22 +1,22 @@
 class CraftMcpCli < Formula
   desc "CLI and SDK for Craft documents via Model Context Protocol"
   homepage "https://github.com/lukilabs/craft-mcp-cli"
-  version "1.0.1"
+  version "1.0.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/lukilabs/craft-mcp-cli/releases/download/v1.0.1/craft-1.0.1-darwin-arm64.tar.gz"
-      sha256 "416a9890369db59cbd8c250642aa887e075b8ca42d59de4097b125f11078bfe4"
+      url "https://github.com/lukilabs/craft-mcp-cli/releases/download/v1.0.2/craft-1.0.2-darwin-arm64.tar.gz"
+      sha256 "8d62f7d7a22956d09e370bc145af6299f8ac2aa3e0185d4bcdcb43d401bd7235"
     else
-      url "https://github.com/lukilabs/craft-mcp-cli/releases/download/v1.0.1/craft-1.0.1-darwin-x64.tar.gz"
-      sha256 "60bec981ef705a9edaddd7117b0883ec3d444ad43b84f090a7b4c7b0ec1d55fe"
+      url "https://github.com/lukilabs/craft-mcp-cli/releases/download/v1.0.2/craft-1.0.2-darwin-x64.tar.gz"
+      sha256 "58fc3a70578655b56288e2700ba475a468ceb7102c295fb74e32c09a81987d96"
     end
   end
 
   on_linux do
-    url "https://github.com/lukilabs/craft-mcp-cli/releases/download/v1.0.1/craft-1.0.1-linux-x64.tar.gz"
-    sha256 "bebe3a9764b42f76a9aa12616a2f36b596a33330afefd616bb7c52b5c750ee29"
+    url "https://github.com/lukilabs/craft-mcp-cli/releases/download/v1.0.2/craft-1.0.2-linux-x64.tar.gz"
+    sha256 "cabbbcfb709f1dbc259baff56e73b86f88063dd89c969fafc2b52c79f923dba7"
   end
 
   def install
