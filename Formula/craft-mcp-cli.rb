@@ -1,4 +1,4 @@
-class Craft < Formula
+class CraftMcpCli < Formula
   desc "CLI and SDK for Craft documents via Model Context Protocol"
   homepage "https://github.com/lukilabs/craft-mcp-cli"
   version "1.0.0"
